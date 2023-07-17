@@ -67,9 +67,10 @@ function UpdatePlayerStats(){
       updatedOn: currentTimestamp
     });
     update(ref(db, "gameCompletion/" + myData),{
-      allLevelCompletion: false,
-      levelOneCompletion: false,
-      levelTwoCompletion: false
+      seaRegion: false, // change value for testing
+      forestRegion: false, // change value for testing
+      cityRegion: false, // change value for testing
+      industrialRegion: false
     });
     update(ref(db, "gameLevels/" + myData),{
       totalScore: 0,

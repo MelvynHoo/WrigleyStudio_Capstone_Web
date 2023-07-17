@@ -109,9 +109,10 @@ function createUser(email, password, displayname, gender, age) {
     }
     var gameCompletion = {
       userName: displayname,
-      levelOneCompletion: false, // change value for testing
-      levelTwoCompletion: false, // change value for testing
-      allLevelCompletion: false, // change value for testing
+      seaRegion: false, // change value for testing
+      forestRegion: false, // change value for testing
+      cityRegion: false, // change value for testing
+      industrialRegion: false, // change value for testing
     }
 
     // When the user successfully sign up, the following data will be generate in the firebase

@@ -79,37 +79,46 @@ function UpdatePieChart(){
             var updateNotificationContent = "No. of Players Who Completed The Levels";
 
             // To store the number of players who has completed the levels
-            var allLevelCompletion = 0;
-            var levelOneCompletion = 0;
-            var levelTwoCompletion = 0;
+            var seaRegion = 0;
+            var forestRegion = 0;
+            var cityRegion = 0;
+            var industrialRegion = 0;
   
             // This check for every user who has completed the levels, it will count up the levels by 1
           gameCompletionList.forEach((item) => {
-            if (item.levelOneCompletion == true)
+            if (item.seaRegion == true)
             {
-              levelOneCompletion += 1;
+              seaRegion += 1;
             }
             else
             {
-                levelOneCompletion += 0;
+                seaRegion += 0;
             }
   
-            if (item.levelTwoCompletion == true)
+            if (item.forestRegion == true)
             {
-                levelTwoCompletion += 1;
+                forestRegion += 1;
             }
             else
             {
-                levelTwoCompletion += 0;
+                forestRegion += 0;
             }
 
-            if (item.allLevelCompletion == true)
+            if (item.cityRegion == true)
             {
-                allLevelCompletion += 1;
+                cityRegion += 1;
             }
             else
             {
-                allLevelCompletion += 0;
+                cityRegion += 0;
+            }
+            if (item.industrialRegion == true)
+            {
+                industrialRegion += 1;
+            }
+            else
+            {
+                industrialRegion += 0;
             }
 
           });
@@ -119,11 +128,11 @@ function UpdatePieChart(){
             var myPieChart = new Chart(ctx, {
             type: 'doughnut',
             data: {
-                labels: ["Level One", "Level Two", "All Level"],
+                labels: ["Sea Region", "Forest Region", "City Region", "Industrial Region"],
                 datasets: [{
-                data: [levelOneCompletion, levelTwoCompletion, allLevelCompletion],
-                backgroundColor: ['#1E40A4', '#005C18', '#B10E0E'],
-                hoverBackgroundColor: ['#2e59d9', '#17a673', '#db1111'],
+                data: [seaRegion, forestRegion, cityRegion, industrialRegion],
+                backgroundColor: ['#1E40A4', '#005C18', '#B10E0E', '#cf7702'],
+                hoverBackgroundColor: ['#2e59d9', '#17a673', '#db1111', '#df7f02'],
                 hoverBorderColor: "rgba(234, 236, 244, 1)",
                 }],
             },
