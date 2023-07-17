@@ -1,0 +1,169 @@
+
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  color: #0B0B0F;
+}
+
+.my-bg-register-image {
+  background: url("img/Game\ Studio\ Logo.png");
+  background-position: 5px;
+  background-size: 110% !important;
+  margin-top: 0px !important; 
+  background-size: cover;
+  max-width: 100% !important;
+}
+
+.my-bg-login-image {
+  background: url("img/Game\ Studio\ Logo.png");
+  background-position: center;
+  
+  margin-top: 0px !important; 
+  background-size: cover;
+  
+}
+
+.bg-password-image {
+  background: url("img/Game\ Studio\ Logo.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.my-card-body {
+  background-color: rgb(0, 0, 0) !important;
+}
+
+.my-card-body-login{
+  padding-top: 15%;
+  height: 615px;
+}
+
+.my-card-body-register{
+  padding-top: 5%;
+}
+
+.my-card-body-forgetpw{
+  padding-top: 15%;
+  height: 635px;
+}
+
+.my-title-font{
+  color: whitesmoke !important;
+}
+
+.my-text-font{
+  
+  color: whitesmoke !important;
+}
+
+.my-text-font2{
+  color: #1E40A4 !important;
+  font-weight: 600 !important;
+}
+
+.my-text-font3{
+  color: #0B0B0F !important;
+  font-weight: 600 !important;
+}
+
+.my-btn-color-one{
+  background-color: #005C18 !important;
+  margin-top: 30px !important;
+}
+
+.my-dropdown-menu-right {
+  right: 0;
+}
+
+.my-small {
+  font-size: 110%;
+}
+
+.username {
+  margin-top: 50 !important;
+}
+
+#playerUserName {
+  padding-top: 15px;
+}
+
+.card {
+  height: 95% !important;
+  
+}
+
+.text-primary{
+  color: #1E40A4 !important;
+  font-weight: 800 !important;
+}
+
+.border-left-primary{
+  border-left:0.25rem solid #8AB5FF !important;
+}
+
+
+.text-success{
+  color: #005C18 !important;
+  font-weight: 800 !important;
+}
+
+.border-left-success{
+  border-left:0.25rem solid #00EB3F !important;
+}
+
+
+.text-warning{
+  color: #8A3E00 !important;
+  font-weight: 800 !important;
+}
+
+.border-left-warning{
+  border-left:0.25rem solid #FFA257 !important;
+}
+
+.text-info{
+  color: #0073A8 !important;
+  font-weight: 800 !important;
+}
+
+.border-left-info{
+  border-left:0.25rem solid #3DC2FF  !important;
+}
+
+.my-red-text{
+  color: #B10E0E !important;
+}
+
+
+.my-bg-login{
+  background-color: #0f0566 !important;
+  background-image: linear-gradient(180deg, #2112a7 10%, #0f0566 100%);
+  background-size: cover;
+}
+
+.my-index-body{
+  /*background-color: #212030 !important;*/
+  background-color: #343541 !important;
+}
+
+.my-nav-body{
+  background-color: #4e4d92 !important;
+}
+
+.my-footer{
+  background-color: #202123 !important;
+}
+
+.my-btn-primary{
+  background-color: #1E40A4 !important;
+}
+
+.my-btn-secondary{
+  background-color: #50525D !important;
+}
+/*4e4d92*/
+.ip-icon{
+  background: url("img/no-profile-pic-icon-11.jpg");
+}
