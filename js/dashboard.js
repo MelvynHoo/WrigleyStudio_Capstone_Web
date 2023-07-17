@@ -1,16 +1,16 @@
-import { initializeApp } from "https://www.gstatic.com/firebasejs/9.16.0/firebase-app.js";
-import { getAuth, onAuthStateChanged} from "https://www.gstatic.com/firebasejs/9.16.0/firebase-auth.js";
-import { getDatabase, ref, get, query, child, set, onValue, orderByChild, limitToLast} from "https://www.gstatic.com/firebasejs/9.16.0/firebase-database.js";
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.0.0/firebase-app.js";
+import { getAuth, onAuthStateChanged} from "https://www.gstatic.com/firebasejs/10.0.0/firebase-auth.js";
+import { getDatabase, ref, get, query, child, set, onValue, orderByChild, limitToLast} from "https://www.gstatic.com/firebasejs/10.0.0/firebase-database.js";
 
 // The web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyA1Nte-TSWCBRUYXUvx2ZIP7_IMLbxshTQ",
-  authDomain: "dda-wrigleystudio-y2s2-ip.firebaseapp.com",
-  databaseURL: "https://dda-wrigleystudio-y2s2-ip-default-rtdb.asia-southeast1.firebasedatabase.app",
-  projectId: "dda-wrigleystudio-y2s2-ip",
-  storageBucket: "dda-wrigleystudio-y2s2-ip.appspot.com",
-  messagingSenderId: "1048521337977",
-  appId: "1:1048521337977:web:53224d4d694c8672ea38a8"
+  apiKey: "AIzaSyCWPBqmkD1lnl2wJBQoFaatqMGnYchyuWA",
+  authDomain: "cp-wrigleystudio.firebaseapp.com",
+  databaseURL: "https://cp-wrigleystudio-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "cp-wrigleystudio",
+  storageBucket: "cp-wrigleystudio.appspot.com",
+  messagingSenderId: "1065509125979",
+  appId: "1:1065509125979:web:38ceea7070a601add4a47e"
 };
 
 // Initialize Firebase
